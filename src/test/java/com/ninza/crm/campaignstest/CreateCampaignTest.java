@@ -110,8 +110,10 @@ public class CreateCampaignTest extends BaseClass2	{
 //			System.out.println("Campaign not created");
 //		}
 		System.out.println("control here");
+		System.out.println("new liner here");
 		hp.getCloseToastMsgBtn().click();
 		Assert.assertTrue(text.contains(CampaignName));
 		
 	}
 }
+
