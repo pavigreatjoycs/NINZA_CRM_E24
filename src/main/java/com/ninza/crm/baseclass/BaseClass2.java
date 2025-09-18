@@ -87,7 +87,7 @@ public class BaseClass2 {
 
   @AfterClass(groups= {"Smoke","Regression"})
   public void afterClass() {
-	  System.out.println("Close the browser");
+	  System.out.println("Close the browser.");
 	  driver.quit();
   }
 
