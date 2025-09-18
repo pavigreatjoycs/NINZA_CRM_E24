@@ -69,8 +69,8 @@ public class BaseClass2 {
 	  String BROWSER = plib.toGetDataFromPropertiesFile("browser");
 //	  String BROWSER = System.getProperty("Browser");
 	  
-		WebDriverManager.edgedriver().setup();
-		WebDriverManager.chromedriver().setup();
+//		WebDriverManager.edgedriver().setup();
+//		WebDriverManager.chromedriver().setup();
 	  if(BROWSER.equalsIgnoreCase("edge")) {
 			driver = new EdgeDriver();
 		}else if(BROWSER.equalsIgnoreCase("chrome")) {
